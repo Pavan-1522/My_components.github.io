@@ -225,6 +225,8 @@ ul li {
         align-items: center;
         height: auto;
         width: auto;
+        margin: 0;
+        padding: 0;
     }
 
     .right_bar {
@@ -279,6 +281,6 @@ ul li {
         padding: 20px;
     }
     .a-element{
-        padding: 5px;
+        padding: 3px;
     }
 }
