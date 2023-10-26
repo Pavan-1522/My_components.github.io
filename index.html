@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 , user-scalable=no">
+    <title>my_page</title>
+    <link rel="stylesheet" href="my_page.css">
+    <link rel="icon" href="https://cdn2.iconfinder.com/data/icons/luchesa-part-3/128/Programming-1024.png">
+</head>
+<body>
+    <div class="navbar">
+        <div class="left_bar">
+            <img class="logo" src="https://cdn2.iconfinder.com/data/icons/luchesa-part-3/128/Programming-1024.png" alt="no image">
+            <h3 class="title">My_Components</h3>
+        </div>
+        <div class="right_bar">
+            <a href="#home"class="a-element">home</a>
+            <a href="#" class="a-element">about</a>
+            <a href="#services" class="a-element">services</a>
+            <a href="#contact" class="a-element">contact</a>
+        </div>
+    </div>
+    <div class="home" id="home">
+        <div class="home-left">
+            <h1 class="home-h1">Madeti Pavan Kumar</h1>
+            <p class="home-p">Pavan Kumar Madeti, born on January 29, 2005, is a highly motivated and intellectually curious individual currently in the final year of his diploma program at Chaitanya Engineering College in Visakhapatnam, India,
+                where he has cultivated a strong academic foundation and practical engineering skills. With a deep-seated passion for electronics, robotics, and IoT,
+                Pavan has consistently demonstrated his commitment to innovation and hands-on projects, underscoring his technical prowess and adaptability. His long-term goal is to become a distinguished engineer,
+                driven by his childhood dream of becoming a locomotive pilot in the Indian Railways, a testament to his unwavering determination to excel in a technical profession. Pavan's attributes include an insatiable curiosity, 
+                resilience in the face of evolving aspirations, and a strong inclination toward collaboration, making him a promising individual poised to make substantial contributions to the dynamic world of technology.</p>
+        </div>
+        <div class="home-right">
+            <img class="img" src="https://res.cloudinary.com/dudz8iroq/image/upload/v1698146116/my_website/IMG_6950-01-02_j6s6if.jpg" alt="logo-here">
+        </div>
+    </div>
+    <div class="services" id="services">
+        <h1 class="sub-h1"> OUR SERVICES</h1>
+        <div class="ser-sub-cont">
+            <div class="ser-card">
+                <h1 class="ser-h1">Arduino Projects</h1>
+                <img src="https://res.cloudinary.com/dudz8iroq/image/upload/v1698245703/NicePng_arduino-png_2079534_xu7tod.png" alt="Error!" class="arduino">
+                <p class="ser-p">All arduino projects Are Done At Low Prices. Special Discounts For Final Year Students</p>
+            </div>
+            <div class="ser-card">
+                <h1 class="ser-h1">Node-MCU projects</h1>
+                <img src="https://res.cloudinary.com/dudz8iroq/image/upload/v1698246414/kisspng-microcontroller-esp8266-electronics-esp32-nodemcu-5bf4674e00c841.5045861815427438860032_bvw5wl.png" alt="Error!" class="arduino">
+                <p class="ser-p">All Node-MCU projects Are Done At Low Prices. Special Discounts For Final Year Students</p>
+            </div>
+            <div class="ser-card">
+                <h1 class="ser-h1">Iot projects</h1>
+                <img src="https://res.cloudinary.com/dudz8iroq/image/upload/v1698246608/kisspng-vector-graphics-stock-photography-royalty-free-ill-valvenet-technologies-5cee13021cda14.7926913315591063061182_cb9pkf.png" alt="Error!" class="arduino">
+                <p class="ser-p">All Iot projects Are Done At Low Prices. Special Discounts For Final Year Students</p>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <h1 class="con-sub-h1">CONTACT US HERE</h1>
+        <div class="contact-sub-cont">
+            <div class="con-card">
+                <h1 class="con-h1">Don't Be A Stranger Just Say Hello !</h1>
+                <p class="con-p">"For More Information About Projects please contact us at "</p>
+                <ul>
+                    <li>Instagram : <a href="https://www.instagram.com/its___me.___pavan.__/" class="con-a" target="_blank">Click Here!</a></li>
+                    <br>
+                    <li>Email Us : <a href="mailto:pavankumarmadeti143@gmail.com" class="con-a">Click Here !</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="footer-text">
+                <p>&copy; 2023 Reserved <a href="https://www.instagram.com/its___me.___pavan.__/" target="_blank">Pavan Kumar Madeti</a></p>
+                <p>Contact: <a href="mailto:pavankumarmadeti143@gmail.com">pavankumarmadeti143@gmail.com</a></p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // Function to check if the viewport width is below a certain threshold
+        function isMobileView() {
+            return window.innerWidth <= 768; // You can adjust the threshold as needed
+        }
+    
+        // Function to display an alert if desktop mode is off
+        function checkDesktopMode() {
+            if (isMobileView()) {
+                alert("Please enable desktop mode for the best experience.");
+            }
+        }
+    
+        // Call the checkDesktopMode function when the page loads
+        window.addEventListener('load', checkDesktopMode);
+    </script>
+</body>
+</html>
