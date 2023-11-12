@@ -64,6 +64,8 @@ body{
     width: 120vh;
     padding: 25px;
     text-align: right;
+    border-radius: 5px;
+    margin-bottom: 10px;
     
 }
 .home-right{
