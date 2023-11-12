@@ -221,6 +221,8 @@ ul li {
     body{
         max-width: 100%;
         overflow-x: hidden;
+        margin: 0;
+        padding: 0;
     }
     .navbar {
         flex-direction: column;
