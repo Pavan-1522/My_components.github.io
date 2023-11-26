@@ -251,10 +251,9 @@ ul li {
     margin-bottom: 30px;
 }
 .project-sheet{
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
-    padding-left: 63vh;
-    border: 1px solid rgb(189, 53, 53);
+
 }
 
 @media screen and (max-width: 768px) {
@@ -333,5 +332,26 @@ ul li {
         font-size: 30px;
         letter-spacing: 2px;
         word-break: initial;
+    }
+    .project-head {
+        font-size: 40px;
+    }
+
+    .project-sub-head {
+        font-size: 50px;
+    }
+
+    .project-p {
+        font-size: 14px;
+    }
+
+    .project-fill {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .project-sheet {
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }
