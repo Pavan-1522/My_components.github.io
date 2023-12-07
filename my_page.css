@@ -255,6 +255,13 @@ ul li {
     justify-content: center;
 
 }
+.pro1h1{
+    font-family: 'Caveat';
+    font-size: 45px;
+}
+div a {
+    color: #FFC317;
+}
 
 @media screen and (max-width: 768px) {
     body{
