@@ -344,6 +344,8 @@ div a {
     }
     .project-head {
         font-size: 40px;
+        padding: 0;
+        margin: 0;
     }
 
     .project-sub-head {
@@ -354,11 +356,15 @@ div a {
 
     .project-p {
         font-size: 14px;
+        padding: 0;
+        margin: 0;
     }
 
     .project-fill {
         font-size: 18px;
         margin-bottom: 15px;
+        padding: 0;
+        margin: 0;
     }
 
     .project-sheet {
