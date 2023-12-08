@@ -356,8 +356,9 @@ div a {
 
     .project-p {
         font-size: 14px;
-        padding: 0;
+        padding: 5%;
         margin: 0;
+        overflow-x: hidden;
     }
 
     .project-fill {
