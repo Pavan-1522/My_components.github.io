@@ -279,7 +279,7 @@ button {
 #telugu{
     display: none;
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 600px) {
