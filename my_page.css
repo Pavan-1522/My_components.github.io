@@ -352,7 +352,7 @@ div a {
     .project-sub-head {
         font-size: 20px;
         padding: 0;
-        margin: 1%;
+        margin: 0;
         overflow-x: hidden;
     }
 
