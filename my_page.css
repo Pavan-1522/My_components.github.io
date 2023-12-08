@@ -103,8 +103,9 @@ footer{
     padding: 20px 0;
 }
 .footer-text {
-    margin-left: 20px;
+    margin-left: 15px;
     font-size: 16px;
+    margin-right: 5px;
 }
 footer a {
     color: rgb(137, 238, 176);
@@ -346,7 +347,9 @@ div a {
     }
 
     .project-sub-head {
-        font-size: 15px;
+        font-size: 10px;
+        padding: 0;
+        margin: 0;
     }
 
     .project-p {
