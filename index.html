@@ -115,6 +115,42 @@
 
     //    // Attach a click event listener to the button
     //    button.addEventListener('click', redirectToLink);
+    
+    </script>
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+        import { getDatabase, ref } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js";
+        import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
+      
+        const firebaseConfig = {
+            apiKey: "AIzaSyCyxsNMHQOeRaGDdu0KV6KfIdFSd2l8PKk",
+          authDomain: "login-elegets.firebaseapp.com",
+          databaseURL: "https://login-elegets-default-rtdb.firebaseio.com",
+          projectId: "login-elegets",
+          storageBucket: "login-elegets.appspot.com",
+          messagingSenderId: "176329985795",
+          appId: "1:176329985795:web:50fa5c3fadd933c4d5e336"
+        };
+      
+        const app = initializeApp(firebaseConfig);
+        const database = getDatabase(app);
+        const auth = getAuth();
+
+        // Check if the user is logged in on page load
+        onAuthStateChanged(auth, (user) => {
+            if (user) {
+                // User is logged in, redirect to main page or perform other actions
+                console.log('User is already logged in:', user);
+                alert('User is already logged in.');
+                // You can redirect or perform other actions here
+                // window.location.href = "My_components.github.io\index.html"; // Replace with the actual main page URL
+            } else {
+                // User is not logged in, redirect to login page
+                console.log('User is not logged in.');
+                alert('User is not logged in. Redirecting to login page.');
+                window.location.href = "C:\pavan drive 1\SOWFTWARE\My_webssite\My_components.github.io\sign.html"; // Replace with the actual login page URL
+            }
+        });
     </script>
 </body>
 </html>
